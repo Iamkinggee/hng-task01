@@ -5,14 +5,19 @@
     
 }
 .profileimage-box {
-    width: 300px;
+    max-width: 300px;
     height: 300px;
+
   }
-  
-  .profileimage {
-    width: 100%;
-    box-shadow: 10px 10px 15px rgba(151, 151, 151, 0.5);
+
+.profileimage-box img{
+   max-width: 100%;
+   height: auto;
+   box-shadow: 10px 10px 15px rgba(151, 151, 151, 0.5);
+
   }
+
+
 
   .container {
     width: 1000px;
@@ -217,7 +222,7 @@ a{
   }
 
 
-  
+
 
   /* media query section */
 
