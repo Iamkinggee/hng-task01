@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.profileimage-box {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .profileimage {
+    width: 100%;
+    box-shadow: 10px 10px 15px rgba(151, 151, 151, 0.5);
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the container full height */
+  }
+
+  .container2{
+    display: grid;
+    justify-content: center;
+    /* align-items: center; */
+    /* height: 100vh;  */
+  }
+
+  .details{
+    padding-left: 40px;
+    display: grid;
+    gap: 20px;
+  }
+
+  h4{
+    color: gray;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    opacity: 30%;
+  }
+
+  h5{
+    color: gray;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    /* opacity: 30%; */
+  }
+
+p{
+    font-family: "Josefin Sans", sans-serif;
+    padding-top: 4px;
+}
+
+.utcinfo{
+    display: grid;
+    gap: 10px;
+}
+
+.title{
+    color: gray;
+    font-size: 30px;
+   /* justify-content: center;
+   justify-items: center;
+   align-items: center; */
+   align-content: center;
+   align-self: center;
+   text-align: center;
+  
+}
+
+.goal-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px; 
+    padding-bottom: 20px;
+    
+}
+
+.goal-item {
+    background-color: rgb(237, 237, 237);
+    /* border: 1px solid #ccc; */
+    padding: 5px;
+    text-align: center;
+    
+    width: 300px;
+    height: 140px;
+  
+}
+
+.year1{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.goal-item > p {
+    font-size: 15px;
+    padding: 8px;
+    text-align: start;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 300px; 
+    height: 100px; 
+    font-weight: 350;
+    line-height: 1.2;
+    flex-wrap: wrap;
+   
+   
+}
+
+.goal-item > h2{
+    
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 13px;
+    padding: 5px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: start;
+    /* opacity: 30%; */
+  }
+
+
+
+
+
+
+
+
+
+
+  /* .space-grotesk-<uniquifier> {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+
+/* 
+  // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 700
+
+.josefin-sans-<uniquifier> {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
